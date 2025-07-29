@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       {/* Sección Hero Principal */}
-      <section className="relative min-h-[75vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[75vh] flex items-center overflow-hidden pt-5 md:pt-0">
         <div className="absolute inset-0 z-0">
           <div className="bg-gray-200 border-2 border-dashed w-full h-full" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary-dark/90 to-primary/70"></div>
