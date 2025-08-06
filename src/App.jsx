@@ -7,7 +7,7 @@ import Contacto from "./sections/Contacto";
 
 function App() {
   return (
-    <>
+    <div className="bg-white text-gray-800 w-full overflow-x-hidden">
       <Navbar />
       <main className="pt-20">
         <Hero />
@@ -16,8 +16,9 @@ function App() {
         <Contacto />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
+
 
 export default App;
